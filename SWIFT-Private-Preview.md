@@ -1,23 +1,10 @@
-# Azure Stream Analytics Private Preview
-## VNET Support in Standard SKU
+#  VNET Support in Standard SKU Private Preview
 
 ## Important Information to Note 
 ### Prerequisites:
 - Make sure your subscription has been whitelisted for the feature. If not, please create an [issue](https://github.com/microsoft/vscode/issues/new?assignees=&labels=&template=swift_prpr.md) here. Please wait until your issue is resolved. 
 - Available regions for private preview: **West US & North Europe**
 - Create or prepare your VNET: please note that your VNET and ASA job must be in the <u>**same region and same subscription**</u> for this private preview.
-
-### Gated preview success criteria:
-- Job was successfully created in VSCode, containerized, and injected in customer VNET.
-- Job ran successfully for a minimum of 2 weeks.
-- Customer was able to connect different data sources: Sql, Blob storage, Eventhub, IoT, etc.
-- Customer able to try private endpoint, service endpoint, custom DNS, JS UDX.
-- Customer able to connect Blob/Sql reference data.
-- Customer able to use different ASA features such as scaling, MSI, different query logics, custom time, etc.
-
-### Exit criteria:
-- Success criteria above is met with the two-week timeframe.
-- PM team has obtained all feedback from customers.
 
 ### Limitations in this private preview:
 - Customer subnet range cannot collide with ASA subnet range.  
@@ -31,9 +18,9 @@
 
 
 ## Setting up your Azure Stream Analytics Job
-1. [Install VSCode and ASA Tools extension](https://learn.microsoft.com/en-us/azure/stream-analytics/quick-create-visual-studio-code#prerequisites) if you haven’t done so already.
+1. [Install VS Code and ASA Tools extension](https://learn.microsoft.com/en-us/azure/stream-analytics/quick-create-visual-studio-code#prerequisites) if you haven’t done so already. You need to install **ASA Tools extenion of version 1.4.3 or later** to use SWIFT private preview feature.
 
-2. Create your job in [VS Code](https://learn.microsoft.com/en-us/azure/stream-analytics/quick-create-visual-studio-code) as you would any other ASA job.
+2. Create your job in [VS Code](https://learn.microsoft.com/en-us/azure/stream-analytics/quick-create-visual-studio-code) as you would do for any other ASA job.
 
     ---
 
@@ -54,7 +41,7 @@
     **Make sure the subnet range does not collide with ASA subnet range (i.e. do not use subnet range 10.0.0.0/16).**
 
     Calculating the IP range:
-    - 5 IP addresses for Networking
+    - 5 IP addresses for Azure Networking
     - 1 IP address is required for S&T for up to 10 jobs per subnet
     - 2 IP addresses are required for every 6 SUs [2 IP addresses required per streaming node] 
 

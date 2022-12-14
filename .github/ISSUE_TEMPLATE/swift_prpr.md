@@ -17,6 +17,6 @@ Subscription(s) to be whitelisted for VNet support:
 
 - [Optional] Subscription name:
 
-- [Optional] Contact email:
+- [Required] Contact email:
 
 <!-- Describe your other questions here. -->
