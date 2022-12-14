@@ -4,7 +4,7 @@ about: Tell us your feedback
 title: "[Survey] User feedback"
 ---
 
-<!-- ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️ -->
+<!-- ⚠️⚠️ Do Not Delete This! user_feedback_template ⚠️⚠️ -->
 
 - VS Code Version: 
 - Extension Version:

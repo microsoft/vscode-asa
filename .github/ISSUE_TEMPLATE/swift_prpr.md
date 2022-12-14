@@ -4,7 +4,7 @@ about: Questions about VNET Support in Standard SKU
 title: "[SWIFT] Subscription whitelist"
 ---
 
-<!-- ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️ -->
+<!-- ⚠️⚠️ Do Not Delete This! swift_private_preview_template ⚠️⚠️ -->
 
 - VS Code Version: 
 - Extension Version:
