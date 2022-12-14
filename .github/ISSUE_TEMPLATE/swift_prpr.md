@@ -6,17 +6,17 @@ title: "[SWIFT] Subscription whitelist"
 
 <!-- ⚠️⚠️ Do Not Delete This! swift_private_preview_template ⚠️⚠️ -->
 
-- VS Code Version: 
-- Extension Version:
-- OS Version: 
----
 
 Subscription(s) to be whitelisted for VNet support:
 
-- [Required] Subscription ID:
+- Subscription ID: [Required]
 
-- [Optional] Subscription name:
+- Subscription name: [Optional]
 
-- [Required] Contact email:
+- Contact email: [Required]
 
-<!-- Describe your other questions here. -->
+---
+<!-- Describe your other questions below. -->
+- VS Code Version: 
+- Extension Version:
+- OS Version: 

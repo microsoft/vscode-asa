@@ -2,7 +2,7 @@
 
 ## Important Information to Note 
 ### Prerequisites:
-- Make sure your subscription has been whitelisted for the feature. If not, please create an [issue](https://github.com/microsoft/vscode/issues/new?assignees=&labels=&template=swift_prpr.md) here. Please wait until your issue is resolved. 
+- Make sure your subscription has been whitelisted for the feature. If not, please create an [issue](https://github.com/microsoft/vscode-asa/issues/new?assignees=&labels=&template=swift_prpr.md&title=%5BSWIFT%5D+Subscription+whitelist) here. Please wait until your issue is resolved. 
 - Available regions for private preview: **West US & North Europe**
 - Create or prepare your VNET: please note that your VNET and ASA job must be in the <u>**same region and same subscription**</u> for this private preview.
 
